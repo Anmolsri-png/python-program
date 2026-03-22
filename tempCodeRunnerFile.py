@@ -9,4 +9,3 @@ if(copy_list1 == list1):
 else:
     print("not palindrome")
 
-    new

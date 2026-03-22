@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 marks = [80.8, 90.9, 56.7, 78, 76,]
 print(type(marks))
 print(marks)
@@ -20,7 +19,7 @@ list.append(4)
 marks = (90.1, 56.4, 87.9, 34, 34, 56,)
 print(marks[1:])
 
-=======
+
 marks = [80.8, 90.9, 56.7, 78, 76,]
 print(type(marks))
 print(marks)
@@ -79,4 +78,4 @@ if(copy_list1 == list1):
     print("Palindrome")
 else:
     print("not palindrome")
->>>>>>> Stashed changes
+
