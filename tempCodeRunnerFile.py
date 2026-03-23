@@ -1,11 +1,6 @@
-list1 = [1, 2, 1]
-list2 = [1, 2, 3]
+value = {
+    "float" : 9.0,
+    "int" : 9
+}
 
-copy_list1 = list1.copy()
-copy_list1.reverse()
-
-if(copy_list1 == list1):
-    print("Palindrome")
-else:
-    print("not palindrome")
-
+print(value)
