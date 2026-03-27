@@ -1,6 +1,6 @@
-value = {
-    "float" : 9.0,
-    "int" : 9
-}
+i = 1
+while i <= 10 :
+    print("my skill" , i)
+    i+=1
 
-print(value)
+print(i)
