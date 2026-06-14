@@ -1,3 +1,7 @@
-nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-for el in nums:
-    print(el )
+n = 5
+fact = 1
+i = 1 
+while i <= n:
+    fact *= i 
+    i += 1
+    print("factorial=", fact)
