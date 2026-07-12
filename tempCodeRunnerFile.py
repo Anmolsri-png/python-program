@@ -1,7 +1,8 @@
-n = 5
-fact = 1
-i = 1 
-while i <= n:
-    fact *= i 
-    i += 1
-    print("factorial=", fact)
+def calc_sum(a, b):
+    sum = a + b
+    print(sum)
+    return sum
+
+calc_sum(5, 10)
+
+calc_sum(12, 17)
