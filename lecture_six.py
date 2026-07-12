@@ -10,7 +10,16 @@
 
 # calc_sum(2, 10)
 
-def calc_sum(a, b):
-    return a + b
-sum = calc_sum(1778, 223)
-print(sum)
+
+# function definition
+# def calc_sum(a, b):
+#     return a + b
+# sum = calc_sum(1, 3)#function call;argument
+# print(sum)
+
+
+def print_hello():
+    print("hello")
+
+output = print_hello()
+print(output)#none value
