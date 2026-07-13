@@ -26,10 +26,16 @@
 
 #average of 3 numbers
 
-def calc_avg(a, b, c):
-    sum = a + b + c
-    avg = sum / 3
-    print(avg)
-    return avg
+# def calc_avg(a, b, c):
+#     sum = a + b + c
+#     avg = sum / 3
+#     print(avg)
+#     return avg
 
-calc_avg(98, 97, 97)
+# calc_avg(98, 97, 97)
+
+#Default parameter
+def cal_prod(a=22, b=2):
+    print(a * b)
+    return a * b
+cal_prod()
