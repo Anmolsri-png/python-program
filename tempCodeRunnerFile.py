@@ -1,7 +1,9 @@
-def cal_fact(n):
-    fact = 1
-    for i in range(1, n+1):
-        fact *= i
-    print(fact)
+def print_list(list, idx):
+    if(idx == len(list)):
+        return
+    print(list[idx])
+    print_list(list, idx+1)
 
-    cal_fact(5)
+fruits = ["mango", "litchi", "apple", "banana"]
+
+print_list(fruits, 0)
