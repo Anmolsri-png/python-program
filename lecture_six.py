@@ -35,7 +35,18 @@
 # calc_avg(98, 97, 97)
 
 #Default parameter
-def cal_prod(a=22, b=2):
-    print(a * b)
-    return a * b
-cal_prod()
+# def cal_prod(a=22, b=2):
+#     print(a * b)
+#     return a * b
+# cal_prod()
+
+# Qus WAF to print the length of a list (list is the parameter)
+
+cities = ["delhi", "gurgaon", "noida", "pune", "chennai"]
+heroes = ["thor", "ironman", "caption america", "shaktiman"]
+
+def print_len(list):
+    print(len(list))
+
+print_len(cities)
+print_len(heroes)
