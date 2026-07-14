@@ -9,5 +9,5 @@
 # with open("demo", "w") as f:
 #     data = f.write("close the retro theme")
 
-import os
-os.remove("demo")
+# import os
+# os.remove("demo")
