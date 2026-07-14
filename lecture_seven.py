@@ -10,4 +10,4 @@
 #     data = f.write("close the retro theme")
 
 import os
-os.undo("demo")
+os.remove("demo")
