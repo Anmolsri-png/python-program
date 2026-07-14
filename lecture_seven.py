@@ -1,6 +1,10 @@
-f = open("demo", "r")
-line1 = f.readline()
-print(line1)
+f = open("demo", "a")
+f.write("\n this is my gr")
+f .close()
 
-line2 = f.readline()
-print(line2)
+with open("demo", "r") as f:
+    data = f.read()
+    print(data)
+
+with open("demo", "w") as f:
+    data = f.write("close the retro theme")
