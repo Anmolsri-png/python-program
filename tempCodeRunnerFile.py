@@ -1,2 +1,1 @@
-import os
-os.remove("demo")
+check_for_word
