@@ -53,6 +53,6 @@ class Student:
         return self.marks
     
 
-s1 = Student("karan", 34)
+s1 = Student("karan", 43)
 s1.welcome()
-print(s1.get_marks)
+print(s1.get_marks())

@@ -10,3 +10,8 @@ class Student:
 
     def get_marks(self):
         return self.marks
+    
+
+s1 = Student("karan", 34)
+s1.welcome()
+print(s1.get_marks)
