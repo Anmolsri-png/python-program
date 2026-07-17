@@ -1,7 +1,12 @@
 class Student:
-    name = "vipin"
-    def __init__(self):
-        print("adding new student in database")
+    college_name = "ABC college"
 
-s1 = Student()
-s2 = Student.name
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def welcome(self):
+        print("welcome Student", self.name)
+
+    def get_marks(self):
+        return self.marks
