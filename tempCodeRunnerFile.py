@@ -1,17 +1,4 @@
-class Student:
-    college_name = "ABC college"
+number =[1,2,3,4,5]
 
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
-
-    def welcome(self):
-        print("welcome Student", self.name)
-
-    def get_marks(self):
-        return self.marks
-    
-
-s1 = Student("karan", 34)
-s1.welcome()
-print(s1.get_marks)
+if (count :=len(number)) > 3:
+    print(f"List has {count} element")
